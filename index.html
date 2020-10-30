@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Bruno Valluzzi</title>
+     <!-- inserisco un normalize file.css per aumentare le prestazioni DA AGGIORNARE SPESSO*/ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="style_prova_2020.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="sharingan.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, inline-scale=1">
+</head>
+
+
+<body>
+    
+    <header class="alto">
+        <!-- <div><a href="about.html"  class="h">About</a></div> -->
+        <div><a href="mailto:brunovalluzzi@gmail.com"  class="h"><strong>Contact me</strong></a></div>
+        <!-- <div><a href="portfolio.html"  class="h">Portfolio</a></div>
+        <div><a href=""  class="h">Experience</a></div> -->
+    </header>
+
+    <!-- <div class="menu-bg"></div>
+    <div class="menu-burger">☰</div>
+    <div class="menu-items">
+        <div class="zoom"><a href="about.html" target="_blank">About</a></div>
+        <div class="zoom0"><a href="mailto:brunovalluzzi@gmail.com" target="_blank">Contact</a></div>
+        <div class="zoom1"><a href="portfolio.html" target="_blank">Portfolio</a></div>
+        <div class="zoom2"><a href="" target="_blank">Experience</a></div>
+    </div> -->
+    
+        <div class="incipit">
+            <h1 class="titolo">
+            Hello, I'm </h1>
+
+            <h1 class="w1">Bruno Valluzzi</h1>
+            
+            <p class="sotto_titolo_p">
+            I'm a <strong class="w">Product Designer</strong>.
+            </br>
+            I approach the creation of systems 
+            </br>
+            based on the <strong class="w">Human Centred Design</strong>.
+            </br>
+            </br>
+            If you are interested about me, you can 
+            </br>
+            download my <strong class="delete"><a href="cv_eng_brunovalluzzi_web.pdf" class="o_nderline">resume</a></strong>, 
+            or have a look 
+            </br>of my <strong class="delete"><a href="Tesi Bruno Valluzzi.pdf" class="o_nderline">degree thesis</a></strong>.
+            </p>
+        </div>
+
+        <div class="add_text_mobile_version">
+            <p class="sotto_titolo_p">
+                Find all my works on <strong class="w"><a href="https://www.behance.net/brunovalluzzi" class="o_nderline">Behance</a></strong>,
+                <strong class="w"><a href="https://dribbble.com/brunovalluzzi" class="o_nderline">Dribble</a></strong>
+                and <strong class="w"><a href="https://github.com/BrunoValluzzi" class="o_nderline">Github.</a></strong>
+            </br></br>
+            Follow me on <strong class="w"><a href="https://www.linkedin.com/in/bruno-valluzzi-54565a17b/" class="o_nderline">Linkedin</a></strong>
+                and <strong class="w"><a href="https://twitter.com/BValluzzi" class="o_nderline">Twitter.</a></strong>
+            </p>
+        </div>
+    
+        <!-- <img class="arrow bounce" src="arrow-down-sign-to-navigate.png"> -->
+    <div class="social">
+            <!-- <a href="https://www.facebook.com/profile.php?id=1699824251" class="link facebook" target="_parent"><span class="fab fa-facebook-f"></span></a>
+            <a href="https://www.instagram.com/ceoval/" class="link instagram" target="_parent"><span class="fab fa-instagram"></span></a> -->
+            <a href="https://github.com/BrunoValluzzi" class="link github" target="_parent"><span class="fab fa-github"></span></a>
+            <a href="https://twitter.com/BValluzzi" class="link twitter" target="_parent"><span class="fab fa-twitter"></span></a>
+            <a href="https://www.linkedin.com/in/bruno-valluzzi-54565a17b/" class="link linkedin" target="_parent"><span class="fab fa-linkedin-in"></span></a>
+            <a href="https://dribbble.com/brunovalluzzi" class="link dribbble" target="_parent"><span class="fab fa-dribbble"></span></a>
+            <a href="https://www.behance.net/brunovalluzzi" class="link behance" target="_parent"><span class="fab fa-behance"></span></a>
+    </div>
+
+    <div>
+        
+    </div>
+    
+    <script src="https://kit.fontawesome.com/4f7a578b85.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $('.menu-burger, .menu-items').on('click', function() {
+            $('.menu-bg, .menu-items, .menu-burger').toggleClass('fs');
+            $('.menu-burger').text() == "☰" ? $('.menu-burger').text('✕') : $('.menu-burger').text('☰');
+        });
+    </script>
+    <script type="text/javascript">
+        $(window).scroll(function(){
+            $('.arrow').css('opacity', 1 - $(window).scrollTop() / 250); 
+        });
+    </script>
+
+</body>
+
+</html>
