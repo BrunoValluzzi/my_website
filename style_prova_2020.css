@@ -70,15 +70,17 @@ a{
     padding: 20px;
     margin: 0%;
     right: 50px;
-    color: ivory;
+    color: #ffc459;
     transform: translate(-5%, -5%); 
     letter-spacing: 0.1em;
     transition: 0.3s;
+    text-decoration: underline;
 }
 .h:hover{
     transition: 0.3s;
     transform: scale(1.1)translate(-4%, -4%);
-    color: #ffc459;
+    color: ivory;
+    text-decoration: underline;
 }
 
 /* CSS HEADER CODEPEN BURGER*/
