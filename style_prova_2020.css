@@ -7,7 +7,6 @@
   to{
       opacity: 1;
       transition: rotateX(0);
-
   }
 
 }
@@ -296,15 +295,6 @@ a{
     color: white;
    
 }
-  
-  /* .social .link.facebook {
-    background-color: #3B5998;
-    color: white;
-  }
-  .social .link.facebook:hover{
-    color:#ffc459;
-    background-color:#22262c;
-} */
 
   .social .link.github {
     color: #ffc459;
@@ -316,14 +306,6 @@ a{
    
 }
 
-  /* .social .link.instagram {
-    background-color: #3f729b;
-    color: white;
-  }
-  .social .link.instagram:hover{
-    color: #ffc459;
-    background-color:#22262c;
-} */
 /* FINE SOCIAL */
 
 
