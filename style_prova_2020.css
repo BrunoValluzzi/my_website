@@ -39,6 +39,10 @@ a{
     text-decoration: underline ivory;
     color: ivory;
     transition: .3s;
+    background-image: linear-gradient(to left,violet, pink, violet, ivory, pink);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-decoration: underline;
 }
 
 .w1{
@@ -71,7 +75,7 @@ a{
     padding: 20px;
     margin: 0%;
     right: 50px;
-    color: #595959;
+    color: #C9CBFF;
     transform: translate(-5%, -5%); 
     letter-spacing: 0.1em;
     transition: 0.3s;
@@ -80,9 +84,12 @@ a{
 .h:hover{
     transition: 0.3s;
     transform: scale(1.1)translate(-4%, -4%);
-    /* color: #C9CBFF; */
     text-decoration: underline;
+    background-image: linear-gradient(to left,violet, pink, violet, ivory, pink);
+    -webkit-background-clip: text;
+    color: transparent;
 }
+
 
 /* CSS HEADER CODEPEN BURGER*/
 
