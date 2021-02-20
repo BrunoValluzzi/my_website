@@ -16,7 +16,9 @@ body{
     /* quella qui sotto è solo una prova
     cancellala se ti fa schifo quando fai 
     il color test */
-    background-image: url("bg.png") center center cover no-repeat fixed;
+    background-image: url("bgdef.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     -webkit-font-smoothing: antialiased;
     font-family: 'Poppins', sans-serif;
 }   
