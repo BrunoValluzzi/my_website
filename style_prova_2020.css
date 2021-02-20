@@ -17,6 +17,8 @@ body{
     cancellala se ti fa schifo quando fai 
     il color test */
     background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: auto;
     -webkit-font-smoothing: antialiased;
     font-family: 'Poppins', sans-serif;
 }   
