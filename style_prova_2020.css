@@ -71,7 +71,7 @@ a{
     padding: 20px;
     margin: 0%;
     right: 50px;
-    color: #ffc459;
+    color: #595959;
     transform: translate(-5%, -5%); 
     letter-spacing: 0.1em;
     transition: 0.3s;
@@ -80,7 +80,7 @@ a{
 .h:hover{
     transition: 0.3s;
     transform: scale(1.1)translate(-4%, -4%);
-    color: ivory;
+    /* color: #C9CBFF; */
     text-decoration: underline;
 }
 
@@ -182,7 +182,7 @@ a{
     margin: 0 auto;
     border: 0;
     margin-left: 100px;
-    color: #ffc459;
+    color: #C9CBFF;
     padding: 0;
     margin-top: 100px;
 }
@@ -196,7 +196,7 @@ a{
 
 .sotto_titolo_p{
     font-size: 70%;
-    color: #ffc459;
+    color: #C9CBFF;
     margin: 0 auto;
     padding: 0;
     border: 0;
@@ -235,7 +235,7 @@ a{
     width: 40px;
     height: 40px;
     border-radius: 99%;
-    border: 2px solid #ffc459;
+    border: 2px solid #C9CBFF;
     padding: 10px;
     transition: .5s;
     color: #D7D0BE;
@@ -261,7 +261,7 @@ a{
     border: 5px solid white;
   }
   .social .link.dribbble{
-    color: #ffc459;
+    color: #C9CBFF;
   }
 
   .social .link.dribbble:hover{
@@ -271,7 +271,7 @@ a{
   }
   
   .social .link.linkedin {
-    color: #ffc459;
+    color: #C9CBFF;
     
   }
 
@@ -281,7 +281,7 @@ a{
   
 }
   .social .link.behance{
-    color: #ffc459;
+    color: #C9CBFF;
   }
   .social .link.behance:hover{
     background-color: #053eff;
@@ -290,7 +290,7 @@ a{
 }
   
   .social .link.twitter {
-    color:#ffc459;
+    color:#C9CBFF;
   }
   .social .link.twitter:hover{
     background-color: #00ACEE;
@@ -299,7 +299,7 @@ a{
 }
 
   .social .link.github {
-    color: #ffc459;
+    color: #C9CBFF;
    
   }
   .social .link.github:hover{
@@ -402,6 +402,11 @@ SMATPHONE
 -----------------------*/
   @media (max-width: 767px){
 
+    body{
+      background: #595959;
+    }
+
+
     .social .link{
         width: 80px;
         height: 80px;
@@ -427,6 +432,7 @@ SMATPHONE
         padding: 20px;
         margin-left: 0;
     }
+    
     .titolo{
       font-size: 98%;
     } 
@@ -453,7 +459,9 @@ SMATPHONE
     .alto{
       margin-bottom: -10vh;
     }
-
+    .h{
+      color:#C9CBFF;
+    }
     .social {
         /* position: absolute;
         transform: translateY(-50%);
