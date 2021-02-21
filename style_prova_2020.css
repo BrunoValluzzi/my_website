@@ -27,13 +27,14 @@ a{
     color: inherit;
 }
 
-.w{
+/* .w{
   color: ivory;
   animation: transitionIn 2s;
-}
+} */
 
 .o_nderline{
-    text-decoration: underline;
+    
+    color: ivory;
 }
 .o_nderline:hover{
     text-decoration: underline ivory;
@@ -463,9 +464,6 @@ SMATPHONE
         margin-left: 0;
         margin-bottom: 10vh;
         letter-spacing: 1vh;
-    }
-    .delete{
-      color: ivory;
     }
     .alto{
       margin-bottom: -10vh;
