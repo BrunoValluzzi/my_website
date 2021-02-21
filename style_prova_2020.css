@@ -39,7 +39,7 @@ a{
 .o_nderline:hover{
     text-decoration: underline ivory;
     color: ivory;
-    transition: .3s;
+    transition: .7s;
     background-image: linear-gradient(to left,violet, pink, violet, ivory, pink);
     -webkit-background-clip: text;
     color: transparent;
