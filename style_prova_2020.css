@@ -52,15 +52,13 @@ a{
   text-decoration: line-through;
 }
 
-/* .w1{
+.w1{
     color: ivory;
     margin:0;
     padding: 0;
     border: 0;
-    animation: transitionIn 2s;
-    
-    
-} */
+    animation: transitionIn 2s; 
+}
 .add_text_mobile_version{
   display: none;
 }
