@@ -35,7 +35,7 @@ a{
 } */
 
 .o_nderline{
-    
+    font-weight: bold;
     color: ivory;
 }
 .o_nderline:hover{
@@ -46,6 +46,10 @@ a{
     -webkit-background-clip: text;
     color: transparent;
     text-decoration: underline;
+    
+}
+.digital{
+  text-decoration: line-through;
 }
 
 .w1{
@@ -205,7 +209,7 @@ a{
 }
 
 .sotto_titolo_p{
-    font-size: 70%;
+    font-size: 60%;
     color: #C9CBFF;
     margin: 0 auto;
     padding: 0;
