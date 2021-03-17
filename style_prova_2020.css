@@ -80,11 +80,10 @@ a{
     padding: 20px;
     margin: 0%;
     right: 50px;
-    color: #C9CBFF;
+    color: ivory;
     transform: translate(-5%, -5%); 
     letter-spacing: 0.1em;
     transition: 0.3s;
-    text-decoration: underline;
 }
 .h:hover{
     transition: 0.3s;
